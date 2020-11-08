@@ -1,0 +1,16 @@
+.App {
+  background-color: #edeef0;
+  min-height: 150vh;
+  margin-top: 40px;
+}
+.App__container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.App__wrapper {
+  padding-top: 15px;
+}
+.Content__wrapper {
+  width: 780px;
+  overflow: hidden;
+}
