@@ -1,0 +1,9 @@
+.dialogs {
+  grid-area: c;
+}
+.dialogs__wrapper {
+  background-color: #fff;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
