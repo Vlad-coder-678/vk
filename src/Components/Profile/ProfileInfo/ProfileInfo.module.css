@@ -1,0 +1,125 @@
+.Profile__info {
+  background-color: #fff;
+  width: 535px;
+  height: 280px;
+  overflow: hidden;
+  box-shadow: 0 1px 0 0 #d3d9de;
+}
+.Title__box {
+  padding: 0px 15px;
+  border-bottom: 1px solid #e7e8ec;
+}
+.Title__status {
+  float: right;
+  margin-top: 5px;
+  font-family: "Roboto", "Helvetica Neue", "Geneva", "Noto Sans Armenian",
+    "Noto Sans Bengali", "Noto Sans Cherokee", "Noto Sans Devanagari",
+    "Noto Sans Ethiopic", "Noto Sans Georgian", "Noto Sans Hebrew",
+    "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans Lao", "Noto Sans Osmanya",
+    "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", sans-serif, arial,
+    Tahoma, verdana;
+  font-size: 12.5px;
+  line-height: 18px;
+  color: #939393;
+  font-weight: 400px;
+  text-overflow: ellipsis;
+  text-align: center;
+  display: block;
+}
+.Title {
+  color: #000;
+  font-family: "Roboto", "Helvetica Neue", "Geneva", "Noto Sans Armenian",
+    "Noto Sans Bengali", "Noto Sans Cherokee", "Noto Sans Devanagari",
+    "Noto Sans Ethiopic", "Noto Sans Georgian", "Noto Sans Hebrew",
+    "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans Lao", "Noto Sans Osmanya",
+    "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", sans-serif, arial,
+    Tahoma, verdana;
+  font-size: 19px;
+  line-height: 25px;
+  font-weight: 400px;
+  text-overflow: ellipsis;
+  text-align: left;
+  display: block;
+}
+.Title__profileStatus {
+  font-family: "Roboto", "Helvetica Neue", "Geneva", "Noto Sans Armenian",
+    "Noto Sans Bengali", "Noto Sans Cherokee", "Noto Sans Devanagari",
+    "Noto Sans Ethiopic", "Noto Sans Georgian", "Noto Sans Hebrew",
+    "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans Lao", "Noto Sans Osmanya",
+    "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", sans-serif, arial,
+    Tahoma, verdana;
+  font-size: 12.5px;
+  line-height: 18px;
+  color: #939393;
+  font-weight: 400px;
+  text-overflow: ellipsis;
+  text-align: left;
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+.ProfileInfo__short {
+  display: block;
+}
+.ProfileInfo__row {
+  display: flex;
+}
+.Info__label {
+  width: 165px;
+  font-family: "Roboto", "Helvetica Neue", "Geneva", "Noto Sans Armenian",
+    "Noto Sans Bengali", "Noto Sans Cherokee", "Noto Sans Devanagari",
+    "Noto Sans Ethiopic", "Noto Sans Georgian", "Noto Sans Hebrew",
+    "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans Lao", "Noto Sans Osmanya",
+    "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", sans-serif, arial,
+    Tahoma, verdana;
+  font-size: 12.5px;
+  line-height: 0px;
+  color: #939393;
+  font-weight: 400px;
+  text-overflow: ellipsis;
+  text-align: left;
+  padding-left: 15px;
+}
+.Info__text {
+  padding-left: 15px;
+  font-family: "Roboto", "Helvetica Neue", "Geneva", "Noto Sans Armenian",
+    "Noto Sans Bengali", "Noto Sans Cherokee", "Noto Sans Devanagari",
+    "Noto Sans Ethiopic", "Noto Sans Georgian", "Noto Sans Hebrew",
+    "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans Lao", "Noto Sans Osmanya",
+    "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", sans-serif, arial,
+    Tahoma, verdana;
+  font-size: 13px;
+  line-height: 0px;
+  color: #2a5885;
+  cursor: pointer;
+  font-weight: 400px;
+  text-overflow: ellipsis;
+  position: left;
+  text-align: left;
+  margin-left: 15px;
+}
+.Counts__box {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1px solid #d3d9de;
+}
+.Counts__item {
+  text-align: center;
+  margin: 0px 7.5px;
+  font-family: "Roboto", "Helvetica Neue", "Geneva", "Noto Sans Armenian",
+    "Noto Sans Bengali", "Noto Sans Cherokee", "Noto Sans Devanagari",
+    "Noto Sans Ethiopic", "Noto Sans Georgian", "Noto Sans Hebrew",
+    "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans Lao", "Noto Sans Osmanya",
+    "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", sans-serif, arial,
+    Tahoma, verdana;
+  font-size: 13px;
+  line-height: 0px;
+  color: #939393;
+  font-weight: 400px;
+  text-overflow: ellipsis;
+  /* overflow: hidden; */
+  line-height: 0px;
+}
+.Counts__item p {
+  font-size: 19px;
+  line-height: 21px;
+}

@@ -1,0 +1,9 @@
+.Profile {
+  background-color: transparent;
+}
+.Profile__left__content {
+  float: left;
+}
+.Profile__right__content {
+  float: right;
+}

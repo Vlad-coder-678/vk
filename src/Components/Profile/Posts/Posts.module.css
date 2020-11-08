@@ -1,0 +1,21 @@
+.Posts {
+  font-size: calc(20px + 2vmin);
+  color: #a09393;
+  margin: 10px;
+}
+.Post__new {
+  display: flex;
+  justify-content: space-between;
+}
+.Post__new input {
+  width: 80%;
+  height: 30px;
+  padding-left: 10px;
+  outline: none;
+}
+.Post__new button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  outline: none;
+}
