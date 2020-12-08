@@ -1,13 +1,19 @@
 import React from "react";
 import pr from "./ProfileInfo.module.css";
+import ProfileStatus from "./ProfileStatus/ProfileStatus";
 
-function ProfileInfo(props) {
+const ProfileInfo = (props) => {
   return (
     <div className={pr.Profile__info}>
       <div className={pr.Title__box}>
         <div className={pr.Title__status}>online</div>
-        <h1 className={pr.Title}>Владимир Мезенцев</h1>
-        <div className={pr.Title__profileStatus}>изменить статус</div>
+        <h1 className={pr.Title}>{props.profile.fullName}</h1>
+        <ProfileStatus
+          {...props}
+          status={props.status}
+          updateStatus={props.updateStatus}
+        />
+        {/* <div className={pr.Title__profileStatus}>{props.profile.aboutMe}</div> */}
       </div>
       <div className={pr.ProfileInfo__short}>
         <div className={pr.ProfileInfo__row}>
@@ -39,7 +45,11 @@ function ProfileInfo(props) {
             <p>Сайт:</p>
           </div>
           <div className={pr.Info__text}>
-            <p>yandex.ru</p>
+            <p>
+              {props.profile.contacts.website
+                ? props.profile.contacts.website
+                : "vk.com"}
+            </p>
           </div>
         </div>
       </div>
@@ -67,6 +77,6 @@ function ProfileInfo(props) {
       </div>
     </div>
   );
-}
+};
 
 export default ProfileInfo;

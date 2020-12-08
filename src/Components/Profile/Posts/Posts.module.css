@@ -1,21 +1,56 @@
-.Posts {
-  font-size: calc(20px + 2vmin);
-  color: #a09393;
-  margin: 10px;
-}
-.Post__new {
+.posts {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
-.Post__new input {
-  width: 80%;
-  height: 30px;
-  padding-left: 10px;
-  outline: none;
+.box_new_post {
+  margin-top: 10px;
+  background-color: #fff;
+  width: 100%;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
 }
-.Post__new button {
-  width: 30px;
-  height: 30px;
+.box_avatar {
+  margin: 10px 0 0 20px;
+}
+.new_post_avatar {
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
+}
+.box_message {
+  box-sizing: border-box;
+  width: 487px;
+  position: relative;
+}
+.new_post_message {
   outline: none;
+  height: 20px;
+  width: 452px;
+  font-size: 13px;
+  color: #a09393;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue",
+    Geneva, "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans Cherokee",
+    "Noto Sans Devanagari", "Noto Sans Ethiopic", "Noto Sans Georgian",
+    "Noto Sans Hebrew", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans Lao",
+    "Noto Sans Osmanya", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai",
+    sans-serif, arial, Tahoma, verdana;
+  line-height: 14px;
+  padding: 22px 20px 6px 12px;
+  border-style: none;
+  resize: none;
+}
+.box_message::after {
+  content: "";
+  background-image: url("https://vk.com/images/poster/color_button_20_2x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 16px;
+  right: 20px;
 }

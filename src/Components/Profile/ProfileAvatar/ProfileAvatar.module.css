@@ -20,11 +20,8 @@
   border-radius: 4px;
   overflow: hidden;
 }
-.Profile__avatar {
-  width: 100%;
+.Profile__avatar img {
+  width: auto;
   height: 100%;
-  background-image: url(./ava2.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  border-radius: 4px;
 }
