@@ -1,4 +1,3 @@
-const UPDATE_NEW_MESSAGE_BODY = "UPDATE_NEW_MESSAGE_BODY";
 const SEND_MESSAGE = "SEND_MESSAGE";
 
 let initialState = {
@@ -16,20 +15,15 @@ let initialState = {
     { id: 4, message: "Hello, Sasha" },
     { id: 5, message: "Hello, Kirill" },
   ],
-  newMessageBody: "",
 };
 
 const messengerReducer = (state = initialState, action) => {
   switch (action.type) {
-    case UPDATE_NEW_MESSAGE_BODY: {
-      return { ...state, newMessageBody: action.newMessBody };
-    }
     case SEND_MESSAGE: {
-      let messageBody = stateCopy.newMessageBody;
+      let messageBody = action.newMessageBody;
       return {
         ...state,
         messages: [...state.messages, { id: 5, message: messageBody }],
-        newMessageBody: "",
       };
     }
     default:
@@ -37,12 +31,15 @@ const messengerReducer = (state = initialState, action) => {
   }
 };
 
-export const sendMessageCreator = () => ({ type: SEND_MESSAGE });
-export const updateNewMessageBodyCreator = (body) => {
-  return {
-    type: UPDATE_NEW_MESSAGE_BODY,
-    newMessBody: body,
-  };
-};
+export const sendMessageAC = (newMessageBody) => ({
+  type: SEND_MESSAGE,
+  newMessageBody,
+});
+// export const updateNewMessageBodyAC = (body) => {
+//   return {
+//     type: UPDATE_NEW_MESSAGE_BODY,
+//     newMessBody: body,
+//   };
+// };
 
 export default messengerReducer;
