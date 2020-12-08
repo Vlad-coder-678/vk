@@ -15,7 +15,7 @@
 }
 .Header__content {
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
   overflow: hidden;
 }
 .Header__logo {
@@ -25,4 +25,13 @@
   line-height: 1.154;
   pointer-events: none;
   outline: none;
+}
+.loginBlock {
+  padding: 0 10px;
+}
+.loginBlock a {
+  text-decoration: none;
+  line-height: 34px;
+  color: white;
+  
 }
